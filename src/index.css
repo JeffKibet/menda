@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #2C4A3B;
+  --color-terracotta: #C1633F;
+  --color-parchment: #F4EDE1;
+
+  --font-serif-display: "DM Serif Display", serif;
+  --font-inter: "Inter", sans-serif;
+}
