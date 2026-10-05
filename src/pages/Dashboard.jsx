@@ -1,5 +1,6 @@
 import { useLocation, Link } from "react-router-dom";
 
+
 function Dashboard() {
   const location = useLocation();
   const { score, severity } = location.state || {};
@@ -30,6 +31,6 @@ function Dashboard() {
       </p>
     </div>
   );
-}
+} 
 
 export default Dashboard;
