@@ -3,6 +3,7 @@ import AppLayout from './layouts/AppLayout'
 import Onboarding from './pages/Onboarding'
 import Assessment from './pages/Assessment'
 import Dashboard from './pages/Dashboard'
+import Auth from './pages/Auth';
 
 function Home() {
   return <h1 className="font-serif-display text-forest">Menda — Home</h1>
@@ -16,9 +17,10 @@ function App() {
         <Route path="/onboarding" element={<Onboarding />} />
         <Route path="/assessment" element={<Assessment />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/auth" element={<Auth />} />
       </Route>
     </Routes>
-  )
+  );
 }
 
 export default App
